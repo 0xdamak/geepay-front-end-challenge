@@ -15,11 +15,17 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "next": "14.1.0",
+    "@headlessui/react": "^1.7.18",
+    "chart.js": "^4.4.1",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
+    "next": "14.0.0",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -34,6 +40,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^8.0.0",
+    "next-plugin-svgr": "^1.1.10",
     "postcss": "^8",
     "prettier": "^3.2.4",
     "prettier-plugin-tailwindcss": "^0.5.11",
