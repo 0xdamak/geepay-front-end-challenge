@@ -99,7 +99,7 @@ export default function OrdersTable({
                 <th className={headerStyle}>Invoice</th>
               </tr>
             </thead>
-            <tbody className="[&>tr:not(:last-child)>td]:border-b [&>tr:not(:last-child)>td]:border-gray-150">
+            <tbody className="[&>tr:not(:last-child)>td]:border-gray-150 [&>tr:not(:last-child)>td]:border-b">
               {data.map((order) => (
                 <tr
                   key={encodeURI(order.name)}
@@ -117,7 +117,7 @@ export default function OrdersTable({
                       <span className="min-w-28">{order.name}</span>
                     </div>
                   </td>
-                  <td className="font-normal text-neutral-500">
+                  <td className="!px-8 font-normal text-neutral-500">
                     <span className="inline-block min-w-28">
                       {formatDate(order.date)}
                     </span>
