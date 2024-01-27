@@ -195,7 +195,7 @@ export default function OrdersTable({
           </li>
           <li className="border-t border-neutral-300">
             <h1
-              className={clsx("my-4 text-right text-3xl", {
+              className={clsx("my-4 text-left text-3xl", {
                 "text-emerald-400": selectedOrder?.status === "paid",
                 "text-red-400": selectedOrder?.status === "refund",
               })}
