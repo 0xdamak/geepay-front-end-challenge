@@ -78,7 +78,9 @@ export default function OrdersTable({
         <div className="mb-5 flex items-center justify-between gap-4">
           {seeAll && (
             <>
-              <h1 className="font-jakarta text-lg font-semibold"></h1>
+              <h1 className="font-jakarta text-lg font-semibold">
+                Last Orders
+              </h1>
               <Link
                 href="/orders"
                 className="cursor-pointer font-normal text-emerald-400"
