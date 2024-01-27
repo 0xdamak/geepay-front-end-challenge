@@ -28,6 +28,7 @@ module.exports = {
   rules: {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off",
   },
   ignorePatterns: [
     ".eslintrc.js",
